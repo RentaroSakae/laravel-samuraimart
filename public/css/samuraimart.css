@@ -197,3 +197,26 @@ label {
     letter-spacing: normal;
     color: #191919;
 }
+
+/*カート機能*/
+.samuraimart-favorite-add-cart {
+    border-radius: 2px;
+    color: #ffffff;
+    background-color: #0fbe9f;
+}
+
+/*レビュー機能*/
+.review-score-color {
+    color: #0fbe9f;
+}
+
+.review-score-color:focus {
+    color: #0fbe9f;
+}
+
+/*退会機能*/
+.samuraimart-delete-submit-button {
+    border-radius: 2px;
+    color: #ffffff;
+    background-color: #d94b0e;
+}
