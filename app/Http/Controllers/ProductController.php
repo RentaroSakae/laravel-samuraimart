@@ -29,9 +29,9 @@ class ProductController extends Controller
             $major_category = null;
         }
         $categories = Category::all();
-        $major_categories = MajorCateogory::all();
+        $major_categories = MajorCategory::all();
 
-        return view('products.index', compact('products', 'category', 'major_category', 'categories', 'major_category_names', 'total_count'));
+        return view('products.index', compact('products', 'category', 'major_category', 'categories', 'major_categories', 'total_count'));
     }
 
     /**
