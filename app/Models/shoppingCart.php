@@ -13,7 +13,7 @@ class shoppingCart extends Model
     protected $table = 'shoppingcart';
 
     public static function getCurrentUserOrders($user_id) {
-        $shoppingcarts = DB::table('shoppingcart')->where("instance", "{ $user_id }")->get();
+        $shoppingcarts = DB::table('shoppingcart')->where("instance", "{$user_id}")->get();
 
         $orders = [];
 
