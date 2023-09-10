@@ -9,7 +9,6 @@ use Illuminate\Support\Facades\DB;
 
 class CartController extends Controller
 {
-    //テストテストテストテスト
     /**
      * Display a listing of the resource.
      *
